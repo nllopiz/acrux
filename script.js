@@ -1,12 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- Datos del Próximo Concierto ---
     const proximoConcierto = {
+        
+        titulo: "En lo Alto",
+        descripcion: "Mirando al cielo la música nos transporta más allá de donde nuestros ojos pueden ver",
+        img: "images/conciertos/Concierto8-12-2025.jpeg",
         /*
-        titulo: "Manifestaciones",
-        fecha: "Domingo 07 de Setiembre 2025",
-        hora: "20:00",
-        lugar: "Espacio patrimonial y artístico Cristóforo Colombo - Godoy Cruz",
-        descripcion: "Sumérgete en un programa diverso que celebra la luz, la esperanza y las raíces musicales del mundo. Desde la serenidad de la música sacra contemporánea hasta la vibrante energía del folclore latinoamericano y el jazz, el Ensamble Vocal Acrux te invita a un recorrido sonoro inolvidable.",
+        fecha: "Lunes 08 de Diciembre 2025",
+        hora: "12:00",
+        lugar: "Parroquia San José de la Montaña, Valle del Sol, Potrerillos",
         */
         programa: [
             {
@@ -14,21 +16,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 titulo: "SICUT LILIUM INTER SPINAS",
                 compositor: "M. Raczynski",
                 anio: "2006",
-                nota: "El título de esta obra significa \"Como el lirio entre las espinas\". Una flor delicada que, a pesar de crecer en un lugar difícil, florece en todo su esplendor. Inspirada en el libro de la Biblia \"Cantar de los Cantares\", es una celebración de la belleza que brilla a pesar de todo. La melodía repite con ternura, en un sonido muy dulce con admiración y pureza, que la persona amada es hermosa."
+                nota: "\"Como el lirio entre las espinas\". Obra inspirada en un poema del \"Cantar de los Cantares\", libro del Antiguo Testamento. La melodía repite con ternura y admiración: Como el lirio entre las espinas, así eres tú amada mía."
             },
             {
                 orden: "2",
                 titulo: "ALLELUIA",
                 compositor: "Fredrik Sixten",
                 anio: "2014",
-                nota: "Una explosión de alegría construida con una sola palabra: Alleluia! Empieza con un simple murmullo, casi un secreto. Pero poco a poco, va creciendo y creciendo, como una ola de emoción, júbilo puro y vibrante. Para luego desaparecer lentamente, como el eco lejano y glorioso de una celebración."
+                nota: "Alleluia: palabra que proviene del hebreo, es una expresión de alabanza, con alegría y gratitud dirigida a Dios. Palabra que cantaremos desde el agradecimiento profundo del corazón hasta la exultante alegría de estar en su Presencia."
             },
             {
                 orden: "3",
                 titulo: "O NATA LUX",
                 compositor: "Morten Lauridsen",
                 anio: "1997",
-                nota: "Es como un abrazo de luz en la oscuridad. Imaginen una noche serena y una voz que se eleva en una súplica suave y muy sentida a Jesús \"Luz nacida de la Luz y Redentor del mundo\". Susurro profundo y expresivo que pide algo tan sencillo y vital como la clemencia. Es una invitación a la paz interior."
+                nota: "Un abrazo de luz en la oscuridad. Una voz que se eleva en una súplica suave y muy sentida \"Luz nacida de la Luz, Jesús, Redentor del mundo, ten piedad de nosotros que te suplicamos\"."
             },
             {
                 orden: "4",
@@ -36,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 compositor: "Michael John Trotta",
                 anio: 2020,
                 texto: "Tradicional",
-                nota: "Dies Irae significa \"Día de la Ira\", el momento del Juicio Final. \"El día de la ira, ese día todo se reducirá a cenizas. La Muerte asombrará a la Naturaleza cuando resucite la creatura. Recuérdame, Jesús piadoso, no me deseches. Dios, perdónalos, concédeles el descanso eterno. Sálvame\""
+                nota: "\"El Día de la Ira de Dios\", poema litúrgico del siglo 13. Relata el momento del Juicio Final. \"El día de la ira, ese día todo se reducirá a cenizas. La Muerte asombrará a la Naturaleza cuando resucite el Salvador. Recuérdame, Jesús piadoso. Dios, perdónalos, concédeles el descanso eterno. Sálvame\""
             },
             {
                 orden: "5",
@@ -53,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 letra: "Sara Teasdale (1884-1933)",
                 nota: "Habrá quietud y estrellas brillantes sobre los techos coronados de nieve. Un reino de paz, de olvido sereno, la música del silencio, sagrada y profunda. \nCrearé este mundo en un sueño en mi mente solitaria. Hallaré el cristal de la paz, sobre mí estrellas encontraré."
             },            
+            /*
             {
                 orden: "7",
                 titulo: "SIXTEEN TONS",
@@ -61,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 anio: "2013",
                 nota: "Dieciséis toneladas. Un retrato crudo y sincero de la vida del trabajador del carbón. Un hombre fuerte, hecho de músculo y sangre, pero con una tragedia: la deuda. \"Cargas dieciséis toneladas, ¿qué obtienes? Otro día más viejo y más endeudado. San Pedro no me lleva porque le debo hasta mi alma a mi patrón\"."
             },
+            */
             {
                 orden: "8",
                 titulo: "LA MORENA",
@@ -130,18 +134,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const conciertoDiv = document.createElement('div');
         conciertoDiv.classList.add('concierto-item');
         conciertoDiv.innerHTML = `
-            <!--
+            
             <h3>${proximoConcierto.titulo}</h3>
+            <h4>"${proximoConcierto.descripcion}"</h4>
+            <p><img width="260px" src="${proximoConcierto.img}" style="display: block; margin: auto"></p>
+            <!--
             <p><strong>Fecha:</strong> ${proximoConcierto.fecha}</p>
             <p><strong>Hora:</strong> ${proximoConcierto.hora}</p>
             <p><strong>Lugar:</strong> ${proximoConcierto.lugar}</p>
-            <p>${proximoConcierto.descripcion}</p>
             -->
-            <img width="260px" src="images/conciertos/Concierto2025-10-17.jpeg" style="display: block; margin: auto">
-            
             <button class="btn btn-programa">Ver Programa</button>
             <div class="programa-detail">
-                <h4>Programa del Concierto:</h4>
+                <h4>Programa</h4>
                 <ul>
                     ${proximoConcierto.programa.map(obra => `
                         <li>

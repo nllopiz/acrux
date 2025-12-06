@@ -305,6 +305,13 @@ section h2 {
 .concierto-item h3 {
     color: var(--secondary-color);
     margin-top: 0;
+    text-align: center;
+}
+
+.concierto-item h4 {
+    text-align: center;
+    margin: 0 3rem;
+    font-style: italic;
 }
 
 .concierto-item .btn-programa {
