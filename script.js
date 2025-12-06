@@ -228,14 +228,14 @@ document.addEventListener('DOMContentLoaded', () => {
         updateCarousel();
 
         // Opcional: Carrusel automático
-        // setInterval(() => {
-        //     if (counter >= carouselImages.length - 1) {
-        //         counter = 0;
-        //     } else {
-        //         counter++;
-        //     }
-        //     updateCarousel();
-        // }, 5000); // Cambia cada 5 segundos
+        setInterval(() => {
+            if (counter >= carouselImages.length - 1) {
+                counter = 0;
+            } else {
+                counter++;
+            }
+            updateCarousel();
+        }, 5000); // Cambia cada 5 segundos
     }
 
     //Cargar los integrantes
