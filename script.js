@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     // --- Datos del Próximo Concierto ---
     const proximoConcierto = {
         
@@ -45,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 titulo: "EARTH SONG",
                 compositor: "Frank Ticheli",
                 anio: "2006",
-                nota: "\"Canción de la Tierra\" nos hace reflexionar, con una reverencia solemne, sobre el sufrimiento que vemos en el mundo, esa \"oscura hora tormentosa\" de la guerra y la angustia. Pero, en medio del dolor, hay esperanza, la música y el canto son nuestro refugio y nuestra luz. Finalizando con una gran y sentida invocación a la Paz."
+                nota: "\"Canción de la Tierra\" nos propone reflexionar sobre el sufrimiento que vemos en el mundo. Pero en medio del dolor, hay esperanza, la música y el canto son nuestro refugio y nuestra luz."
             },
             {
                 orden: "6",
@@ -53,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 compositor: "Frank Ticheli",
                 anio: "1999",
                 letra: "Sara Teasdale (1884-1933)",
-                nota: "Habrá quietud y estrellas brillantes sobre los techos coronados de nieve. Un reino de paz, de olvido sereno, la música del silencio, sagrada y profunda. \nCrearé este mundo en un sueño en mi mente solitaria. Hallaré el cristal de la paz, sobre mí estrellas encontraré."
+                nota: "Habrá quietud y estrellas brillantes sobre los techos cubiertos de nieve. Un reino de paz, de olvido sereno, la música del silencio, sagrada y profunda. \nEn mi mente solitaria, en un sueño, crearé este mundo. Hallaré el cristal de la paz, sobre mí, estrellas encontraré."
             },            
             /*
             {
@@ -71,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 arreglo: "Julio Morales",
                 genero: "Son Jarocho",
                 anio: "2013",
-                nota: "Nos transporta directamente a la alegría y el color del folclore mexicano con sus melodías pegadizas y su energía contagiosa. La historia es una serenata coqueta: le promete a su amada, la Morena, un viaje de lujo: Será llevada a Jalapa en un bello ferrocarril con durmientes de plata y rieles de marfil. Pero con una condición: que la Morena le dé su amor."
+                nota: "Nos transporta directamente a la alegría y el color del folclore mexicano con sus melodías pegadizas y su energía contagiosa. El joven le promete a su amada, la Morena, un viaje de lujo: Será llevada a Jalapa en un bello ferrocarril con durmientes de plata y rieles de marfil. Pero con una condición: que la Morena le dé su amor."
             },
             {
                 orden: "9",
@@ -81,14 +82,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 arreglo: "Liliana Cangiano",
                 genero: "Tango",
                 anio: "1991",
-                nota: "Clásico tango porteño. La escena es trágica y romántica a la vez: una despedida definitiva, un brindis amargo por un gran amor del que sólo queda un adiós. <br>Solistas: <strong>Ivana Morales (Soprano) - Mariano Arenas (Tenor)</strong>"
+                nota: "Clásico tango porteño. La escena es trágica y romántica a la vez: una despedida definitiva, un brindis amargo por un gran amor del que sólo queda un adiós. <br>Solista: <strong>Mariano Arenas</strong>"
             },
             {
                 orden: "10",
                 titulo: "GLORIA CUM SANCTO SPIRITU",
                 compositor: "Hyo-Won Woo",
                 anio: "2002",
-                nota: "Esta obra, con su ritmo ágil y velocidad, es una celebración del espíritu. La música es una gran declaración: comienza cantando \"Gloria a Dios en las alturas\" y se afirma con una convicción poderosa: \"solo tú eres el Señor Altísimo\". Tras momentos de súplica y afirmación apasionada, todo se resuelve en un final resonante y expansivo: un gran Amén."
+                nota: "Gloria a Dios en el cielo y paz a los hombres de buena voluntad. Esta versión contemporánea recrea con energía y emoción uno de los himnos más antiguos de la liturgia cristiana."
             },
             {
                 orden: "11",
@@ -96,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 genero: "Spiritual",
                 arreglo: "David L. Brunner",
                 anio: "1994",
-                nota: "Un emotivo espiritual afroamericano que nos trae una melodía de profunda esperanza. Es un canto de liberación, que utiliza la imagen de una \"dulce carroza\" (sweet chariot) que se balancea suavemente, que viene a llevarme al cielo. Una visión esperanzadora,  que reafirma la promesa de la liberación de las cadenas de la esclavitud y el descanso eterno."
+                nota: "Un emotivo espiritual afroamericano que nos trae una melodía de profunda esperanza. Es un canto de liberación, que utiliza la imagen de una \"dulce carroza\" (sweet chariot) que con su suave balanceo, viene a liberarme de las cadenas de la esclavitud para llevarme a casa."
             }
             /*{
                 titulo: "BALDOSA FLOJA",
@@ -249,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { nombre: "Rocío Pascual", cuerda: "Soprano" },
         { nombre: "Romina Lombardo", cuerda: "Soprano" },
         { nombre: "Valeria Valdivieso", cuerda: "Soprano" },
-        { nombre: "Cecilia Arango", cuerda: "Contralto" },
+        //{ nombre: "Cecilia Arango", cuerda: "Contralto" },
         { nombre: "Claudia Corvalán", cuerda: "Contralto" },
         { nombre: "Florencia Adam", cuerda: "Contralto" },
         { nombre: "Jesuana Guerra", cuerda: "Contralto" },
@@ -261,10 +262,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { nombre: "Bruno Bitar", cuerda: "Tenor" },
         { nombre: "Javier Torres", cuerda: "Tenor" },
         { nombre: "Marcelo Ayos", cuerda: "Tenor" },
-        { nombre: "Marcelo Alvarez", cuerda: "Tenor" },
+        //{ nombre: "Marcelo Alvarez", cuerda: "Tenor" },
         { nombre: "Mariano Arenas", cuerda: "Tenor" },
         { nombre: "Emiliano Tolosa", cuerda: "Bajo" },
-        { nombre: "Fabián Pionetti", cuerda: "Bajo" },
+        //{ nombre: "Fabián Pionetti", cuerda: "Bajo" },
         { nombre: "Gustavo Longo", cuerda: "Bajo" },
         { nombre: "Kevin Caillet Bois", cuerda: "Bajo" },
         { nombre: "Norberto Llopiz", cuerda: "Bajo" },        
