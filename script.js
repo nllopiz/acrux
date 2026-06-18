@@ -241,6 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //Cargar los integrantes
     const integrantesCoro = [
         { nombre: "Ángela Cano", cuerda: "Soprano" },
+        { nombre: "Gianna Hoheb", cuerda: "Soprano" },
         { nombre: "Ivana Morales", cuerda: "Soprano" },
         { nombre: "Marcia Sanchez", cuerda: "Soprano" },
         { nombre: "Maria Ines Cabrera", cuerda: "Soprano" },
@@ -250,27 +251,37 @@ document.addEventListener('DOMContentLoaded', () => {
         { nombre: "Rocío Pascual", cuerda: "Soprano" },
         { nombre: "Romina Lombardo", cuerda: "Soprano" },
         { nombre: "Valeria Valdivieso", cuerda: "Soprano" },
-        //{ nombre: "Cecilia Arango", cuerda: "Contralto" },
+        //
+        { nombre: "Candelaria", cuerda: "Contralto" },
         { nombre: "Claudia Corvalán", cuerda: "Contralto" },
         { nombre: "Florencia Adam", cuerda: "Contralto" },
         { nombre: "Jesuana Guerra", cuerda: "Contralto" },
         { nombre: "Jimena Moyano", cuerda: "Contralto" },
+        { nombre: "María Fernanda Lavenia", cuerda: "Contralto" },
         { nombre: "Marianela Severino", cuerda: "Contralto" },
-        { nombre: "Sofía Michaux", cuerda: "Contralto" },
+        { nombre: "Martina Cona", cuerda: "Contralto" },
         { nombre: "Valeria Echenique", cuerda: "Contralto" },
         { nombre: "Victoria Peinetti", cuerda: "Contralto" },
+        //
         { nombre: "Bruno Bitar", cuerda: "Tenor" },
+        { nombre: "Critian Zúñiga", cuerda: "Tenor" },
+        { nombre: "Denis Ozan", cuerda: "Tenor" },
+        { nombre: "Emanuel Tuzzi", cuerda: "Tenor" },
         { nombre: "Javier Torres", cuerda: "Tenor" },
+        { nombre: "Lucas Martinez", cuerda: "Tenor" },
+        { nombre: "Lucio Marinsalda", cuerda: "Tenor" },
         { nombre: "Marcelo Ayos", cuerda: "Tenor" },
-        //{ nombre: "Marcelo Alvarez", cuerda: "Tenor" },
         { nombre: "Mariano Arenas", cuerda: "Tenor" },
-        { nombre: "Emiliano Tolosa", cuerda: "Bajo" },
-        //{ nombre: "Fabián Pionetti", cuerda: "Bajo" },
+        //
+        { nombre: "Agustín Blanc", cuerda: "Tenor" },
+        { nombre: "Bruno Schafer", cuerda: "Tenor" },
+        { nombre: "Facundo Paez", cuerda: "Tenor" },
         { nombre: "Gustavo Longo", cuerda: "Bajo" },
         { nombre: "Kevin Caillet Bois", cuerda: "Bajo" },
+        { nombre: "Matías Corvalán", cuerda: "Tenor" },
+        { nombre: "Matthew Cunnliffe", cuerda: "Tenor" },
         { nombre: "Norberto Llopiz", cuerda: "Bajo" },        
         { nombre: "Pablo Vergara", cuerda: "Bajo" },
-        { nombre: "Pablo Yornet", cuerda: "Bajo" }
     ];
 
     const membersGrid = document.querySelector('.members-grid');
