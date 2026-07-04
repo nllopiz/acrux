@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 compositor: "Dolly Parton",
                 arreglo: "Craig Hella Johnson",
                 anio: "2010",
-                nota: "scrita originalmente por Dolly Parton en 1977, esta canción nació como una expresión de esperanza después de un momento de cambio en su vida. El arreglo coral de Craig Hella Johnson potencia su fuerza emocional y convierte este clásico de la música popular en un canto a la resiliencia y a la confianza en que, tras los momentos difíciles, siempre puede aparecer una nueva luz."
+                nota: "Escrita originalmente por Dolly Parton en 1977, esta canción nació como una expresión de esperanza después de un momento de cambio en su vida. El arreglo coral de Craig Hella Johnson potencia su fuerza emocional y convierte este clásico de la música popular en un canto a la resiliencia y a la confianza en que, tras los momentos difíciles, siempre puede aparecer una nueva luz."
             }
         ]
     };
