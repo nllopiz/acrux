@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         titulo: "",
         descripcion: "",
-        img: "images/conciertos/EmocionesCompartidas.jpeg",
+        img: "images/conciertos/EmocionesCompartidas-C7.jpeg",
         /*
         fecha: "Lunes 08 de Diciembre 2025",
         hora: "12:00",
