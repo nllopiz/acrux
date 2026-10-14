@@ -65,14 +65,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 anio: "2013",
                 nota: "Dieciséis toneladas. Un retrato crudo y sincero de la vida del trabajador del carbón. Un hombre fuerte, hecho de músculo y sangre, pero con una tragedia: la deuda. \"Cargas dieciséis toneladas, ¿qué obtienes? Otro día más viejo y más endeudado. San Pedro no me lleva porque le debo hasta mi alma a mi patrón\"."
             },
-            */
+            
             {
                 orden: "7",
                 titulo: "LA MORENA",
                 arreglo: "Julio Morales",
                 anio: "2013",
                 nota: "Con el color y la vitalidad del folclore mexicano, esta canción narra el cortejo de un joven enamorado que promete a \"La Morena\" un viaje extraordinario a bordo de un tren imaginario, construido con durmientes de plata y rieles de marfil. Llena de humor, picardía y ritmo, celebra la alegría de la música popular."
-            },
+            },*/
             {
                 orden: "7",
                 titulo: "LOS MAREADOS",
