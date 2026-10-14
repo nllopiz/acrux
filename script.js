@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         */
         programa: [
             {
-                orden: "1",
+                orden: "2",
                 titulo: "SICUT LILIUM INTER SPINAS",
                 compositor: "M. Raczynski",
                 anio: "2006",
@@ -41,15 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 texto: "Tradicional",
                 nota: "Inspirada en el célebre himno medieval Dies Irae (\"Día de la ira\"), esta obra recrea la intensidad del antiguo poema que describe el Juicio Final. La música alterna momentos de gran dramatismo con pasajes de recogimiento, reflejando tanto el temor como la esperanza y la búsqueda de misericordia."
             },
-            {
+            /*{
                 orden: "3",
                 titulo: "EARTH SONG",
                 compositor: "Frank Ticheli",
                 anio: "2006",
                 nota: "\"Canción de la Tierra\" es una reflexión sobre el sufrimiento humano y los desafíos de nuestro tiempo. Frente al dolor y la incertidumbre, la obra propone un mensaje de esperanza, recordándonos que la música y el canto pueden ser un refugio, un consuelo y una fuerza capaz de inspirar un futuro mejor."
-            },
+            },*/
             {
-                orden: "5",
+                orden: "3",
                 titulo: "THERE WILL BE REST",
                 compositor: "Frank Ticheli",
                 letra: "Sara Teasdale (1884-1933)",
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 nota: "Con el color y la vitalidad del folclore mexicano, esta canción narra el cortejo de un joven enamorado que promete a \"La Morena\" un viaje extraordinario a bordo de un tren imaginario, construido con durmientes de plata y rieles de marfil. Llena de humor, picardía y ritmo, celebra la alegría de la música popular."
             },
             {
-                orden: "10",
+                orden: "7",
                 titulo: "LOS MAREADOS",
                 letra: "Enrique Cadícamo",
                 arreglo: "Liliana Cangiano",                
@@ -82,20 +82,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 nota: "Uno de los grandes clásicos del tango argentino. En un último encuentro, dos antiguos amantes brindan mientras intentan disimular el dolor de una despedida definitiva. La música combina nostalgia, pasión y elegancia, convirtiendo esta historia de amor perdido en una de las páginas más memorables del repertorio porteño. <br>Solistas: <strong>Ivana Morales y Mariano Arenas</strong>"
             },
             {
-                orden: "2",
+                orden: "5",
                 titulo: "GLORIA CUM SANCTO SPIRITU",
                 compositor: "Hyo-Won Woo",
                 anio: "2002",
                 nota: "Basada en el tradicional texto del Gloria, esta obra celebra la alegría, la paz y la alabanza con un lenguaje musical contemporáneo. La compositora combina intensidad rítmica, contrastes expresivos y una escritura coral vibrante para dar nueva vida a uno de los himnos más antiguos de la tradición cristiana."
             },
-            /*{
-                orden: "11",
+            {
+                orden: "10",
                 titulo: "SWING LOW, SWEET CHARIOT",
                 genero: "Spiritual",
                 arreglo: "David L. Brunner",
                 anio: "1994",
                 nota: "Un emotivo espiritual afroamericano que nos trae una melodía de profunda esperanza. Es un canto de liberación, que utiliza la imagen de una \"dulce carroza\" (sweet chariot) que con su suave balanceo, viene a liberarme de las cadenas de la esclavitud para llevarme a casa."
-            }*/
+            }
             /*{
                 titulo: "BALDOSA FLOJA",
                 musica_original: "F. Sassone y J. Bocazzi",
@@ -136,6 +136,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 arreglo: "Craig Hella Johnson",
                 anio: "2010",
                 nota: "Escrita originalmente por Dolly Parton en 1977, esta canción nació como una expresión de esperanza después de un momento de cambio en su vida. El arreglo coral de Craig Hella Johnson potencia su fuerza emocional y convierte este clásico de la música popular en un canto a la resiliencia y a la confianza en que, tras los momentos difíciles, siempre puede aparecer una nueva luz."
+            },
+            {
+                orden: "1",
+                titulo: "AVE MARIS STELLA",
+                compositor: "Piotr Janczak",                
+                anio: "2011",
+                nota: "Musicalización coral del antiguo himno latino del mismo nombre, uno de los cantos marianos más importantes de la tradición cristiana. El Ave Maris Stella (Salve, estrella del mar) es un himno compuesto aproximadamente entre los siglos VIII y IX. Durante siglos formó parte de la liturgia de las **Vísperas de las fiestas de la Virgen María**, especialmente en la tradición católica."
+            },
+            {
+                orden: "4",
+                titulo: "A LITTLE WHILE",
+                compositor: "Ily Mathew Maniano",                
+                anio: "2020",
+                nota: "Por un breve tiempo, cuando yo me haya ido, mi vida vivirá en la música después de mí, como espuma hilada que se eleva y se arrastra tras la ola perdida en el mar embravecido. Por un breve tiempo, estas noches y días arderán en canciones con la brillante fragilidad de la espuma, viviendo en la luz antes de volver a la nada que es su hogar."
             }
         ]
     };
