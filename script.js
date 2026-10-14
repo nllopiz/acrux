@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 arreglo: "David L. Brunner",
                 anio: "1994",
                 nota: "Un emotivo espiritual afroamericano que nos trae una melodía de profunda esperanza. Es un canto de liberación, que utiliza la imagen de una \"dulce carroza\" (sweet chariot) que con su suave balanceo, viene a liberarme de las cadenas de la esclavitud para llevarme a casa."
-            }
+            },
             /*{
                 titulo: "BALDOSA FLOJA",
                 musica_original: "F. Sassone y J. Bocazzi",
