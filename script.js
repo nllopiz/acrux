@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 compositor: "M. Raczynski",
                 anio: "2006",
                 nota: "Inspirada en un pasaje del Cantar de los Cantares, esta obra evoca la belleza, la ternura y el amor a través de una delicada escritura coral. Su melodía repite con serenidad: \"Como el lirio entre las espinas, así eres tú, amada mía\", convirtiendo un antiguo poema en una experiencia musical íntima y contemplativa."
-            },
+            },/*
             {
                 orden: "4",
                 titulo: "ALLELUIA",
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 anio: "2014",
                 nota: "Alleluia es una antigua expresión hebrea de alegría y alabanza. En esta obra, una sola palabra se transforma en un recorrido musical que va desde la contemplación hasta la celebración, expresando gratitud, esperanza y entusiasmo a través de una escritura coral luminosa y expansiva."
             },
-            /*{
+            {
                 orden: "3",
                 titulo: "O NATA LUX",
                 compositor: "Morten Lauridsen",
@@ -274,18 +274,17 @@ document.addEventListener('DOMContentLoaded', () => {
         { nombre: "Gianna Hoheb", cuerda: "Soprano" },
         { nombre: "Marcia Sanchez", cuerda: "Soprano" },
         { nombre: "Maria Ines Cabrera", cuerda: "Soprano" },
-        { nombre: "Marina Faggian", cuerda: "Soprano" },
-        { nombre: "Martina Lecea", cuerda: "Soprano" },
+        { nombre: "Marina Faggian", cuerda: "Soprano" },        
         { nombre: "Mercedes Bosch", cuerda: "Soprano" },
         { nombre: "Rocío Pascual", cuerda: "Soprano" },
         { nombre: "Romina Lombardo", cuerda: "Soprano" },
         { nombre: "Valeria Valdivieso", cuerda: "Soprano" },
         //        
-        { nombre: "Cecilia Basualdo", cuerda: "Contralto" },
         { nombre: "Claudia Corvalán", cuerda: "Contralto" },
         { nombre: "Florencia Adam", cuerda: "Contralto" },
         { nombre: "Jesuana Guerra", cuerda: "Contralto" },
         { nombre: "Jimena Moyano", cuerda: "Contralto" },
+        { nombre: "Lourdes Céspedes", cuerda: "Contralto" },
         { nombre: "María Fernanda Lavenia", cuerda: "Contralto" },
         { nombre: "Marianela Severino", cuerda: "Contralto" },
         { nombre: "Valeria Echenique", cuerda: "Contralto" },
